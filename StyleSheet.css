@@ -1,0 +1,309 @@
+﻿body {
+}
+
+.fixed {
+    position:fixed;
+    top:10px;
+    left:0;
+    width:100%;
+    border-style: solid;
+    border-top: .50px thin #808080;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+}
+
+.topLink {
+    border:0;
+    width:100%;
+}
+
+.link {
+    color:blue;
+    text-decoration:none;
+    padding-right:5px;
+}
+
+.ProdIn {
+    position:relative;
+    width:720px;
+    height: 35px;
+    left:60px;
+    top: 0px;
+}
+
+.tableInput {
+    width:70%;
+}
+
+.prodLabel {
+    position:absolute;
+    top:99px;
+    left: 327px;
+    transition: .20s;
+}
+
+.ProdIn:focus~.prodLabel, .ProdIn:valid~.prodLabel{
+    left: 200px;
+}
+
+
+
+/*-------------Bottom.html--------------*/
+
+.Categories {
+    border-style:solid;
+    border-radius: 15px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding-top: 30px;
+}
+
+.Categories th:hover {
+    background-color: lightgreen;
+}
+
+.bottomPic {
+    width:150px;
+}
+
+.brands {
+    border-style:solid;
+    border-radius: 15px;
+    border-collapse:separate;
+    border-spacing: 15px 50px;
+    bottom:50px;
+    padding-bottom:25px;
+}
+
+    .brands th:hover {
+        background-color: lightgreen;
+    }
+
+.bottomBrands {
+    width:200px;
+}
+
+
+
+/*-----------loginPage.html----------*/
+
+.loginDiv {
+    border-style: solid;
+    border: 1px thin #808080;
+    border-radius: 15px;
+    position: absolute;
+    width:300px;
+    height:400px;
+    right:0;
+    top: 250px;
+    background: repeating-linear-gradient(90deg, white 0%, green 100% );
+}
+
+.loginTable {
+    width: 100%;
+    height: 400px;
+}
+
+.userName {
+    border-bottom:1px thin #808080;
+    width: 250px;
+    height: 30px;
+}
+
+.passWord {
+    width: 250px;
+    height: 30px;
+}
+
+.tdUsername {
+    position:absolute;
+    top: 80px;
+}
+
+.tdPassword {
+    position:absolute;
+    top: 200px;
+}
+
+.userLog{
+    position: absolute;
+    font-size: 12px;
+    top: 13px;
+    left: 10px;
+    transition: .20s;
+    color: #a7969697;
+
+}
+
+.passLog{
+    position: absolute;
+    font-size: 12px;
+    top: 13px;
+    left: 10px;
+    transition: .20s;
+    color: #a7969697;
+}
+
+.userName:focus~.userLog, .userName:valid~.userLog{
+    font-size: 20px;
+    top: -24px;
+    color: green;
+}
+
+.passWord:focus~.passLog, .passWord:valid~.passLog{
+    font-size: 20px;
+    top: -24px;
+    color:green;
+}
+
+.loginButton{
+    position: absolute;
+    border: 2px solid #a79696;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    top: 40px;
+    left: 10px;
+    width: 60px;
+}
+
+.loginButton:hover{
+    background: rgb(31, 45, 52);
+    color: aliceblue;
+}
+
+.SignUpButton{
+    position: absolute;
+    border: 2px solid #a79696;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    top: 40px;
+    left: 140px;
+    width: 60px;
+}
+
+.SignUpButton:hover{
+    background: rgb(31, 45, 52);
+    color: aliceblue;
+}
+
+/*-----------signUpPage------------*/
+
+
+.signUpPage{
+    border-style: solid;
+    border: 1px thin #808080;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    width:300px;
+    height:400px;
+    top: 250px;
+    background: repeating-linear-gradient(90deg, white 0%, green 100% );
+}
+
+.signUpTable{
+    width: 100%;
+    height: 400px;
+}
+
+.phNum_tr{
+    position: absolute;
+}
+
+.email_tr{
+    position: absolute;
+}
+
+.pw_tr{
+    position: absolute;
+}
+
+.numSign{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 100px;
+}
+
+.numLabel{
+    position: absolute;
+    font-size: 12px;
+    top: 111px;
+    left: 10px;
+    transition: .20s;
+    color: #a7969697;
+}
+
+.emailSign{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 160px;
+}
+
+.emailLabel{
+    position: absolute;
+    font-size: 12px;
+    top: 208px;
+    left: 10px;
+    transition: .20s;
+    color: #a7969697;
+}
+
+.passSign{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 230px;
+}
+
+.passLabel{
+    position: absolute;
+    font-size: 12px;
+    top: 314px;
+    left: 10px;
+    transition: .20s;
+    color: #a7969697;
+}
+
+
+.numSign:focus~.numLabel, .numSign:valid~.numLabel{
+    top: 80px;
+    font-size: 15px;
+    color: green;
+}
+
+.emailSign:focus~.emailLabel, .emailSign:valid~emailLabel{
+    top: 175px;
+    font-size: 15px;
+    color: green;
+}
+
+.passSign:focus~.passLabel, .passSign:valid~.passLabel{
+    top: 280px;
+    font-size: 15px;
+    color: green;
+}
+
+.submitAcc{
+    position: relative;
+    border:solid;
+    top: 260px;
+    left: 20px;
+    width: 70px;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+}
+
+.cancelAcc{
+    position: relative;
+    border:solid;
+    top: 238px;
+    left: 130px;
+    width: 70px;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+}
