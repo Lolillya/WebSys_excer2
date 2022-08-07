@@ -163,7 +163,8 @@
 
 .loginButton{
     position: absolute;
-    border: 2px solid #a79696;
+    border: 1px solid black;
+    background-color: white;
     font-size: 15px;
     text-align: center;
     display: inline-block;
@@ -181,7 +182,8 @@
 
 .SignUpButton{
     position: absolute;
-    border: 2px solid #a79696;
+    border: 1px solid black;
+    background-color: white;
     font-size: 15px;
     text-align: center;
     display: block;
@@ -284,7 +286,7 @@
     color: green;
 }
 
-.emailSign:focus~.emailLabel, .emailSign:valid~emailLabel{
+.emailSign:focus~.emailLabel, .emailSign:valid~.emailLabel{
     top: 175px;
     font-size: 15px;
     color: green;
@@ -298,21 +300,27 @@
 
 .submitAcc{
     position: relative;
-    border:solid;
+    border: 1px solid;
+    background-color: white;
     top: 260px;
     left: 20px;
     width: 70px;
+    height: 17px;
     text-align: center;
     font-size: 15px;
     display: block;
+
+
 }
 
 .cancelAcc{
     position: relative;
-    border:solid;
-    top: 238px;
+    border: 1px solid;
+    background-color: white;
+    top: 240px;
     left: 130px;
     width: 70px;
+    height: 17px;
     text-align: center;
     font-size: 15px;
     display: block;
@@ -446,6 +454,12 @@
     width: 80px;
     left: 10px;
     top: 100px;
+    padding-top: 1px;
+}
+
+.uploadIMG:hover{
+    background-color: #808080;
+    cursor: pointer;
 }
 
 .uploadIMG_label{
@@ -453,6 +467,26 @@
     font-size: 12px;
     left: 100px;
     top: 80px;
+}
+
+.submitSock{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+    top: 120px;
+    left: 43px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: white;
+    box-shadow: 2px 1px  #808080;
+}
+
+.submitSock:hover{
+    background-color: lightgreen;
+    border-color: black;
+    cursor: pointer;
 }
 
 .stockIn_list{
