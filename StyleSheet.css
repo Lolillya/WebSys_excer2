@@ -51,11 +51,14 @@
 /*-------------Bottom.html--------------*/
 
 .Categories {
+    position: relative;
     border-style:solid;
     border-radius: 15px;
-    border-collapse: separate;
-    border-spacing: 15px;
+    border-spacing: 0;
     padding-top: 30px;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .Categories th:hover {
@@ -334,12 +337,12 @@
 
 .stockIn_div{
     position: absolute;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
     border-style: solid;
     border-radius: 20px;
     width: 300px;
     height: 500px;
     top: 200px;
-    background: repeating-linear-gradient(90deg, white 0%, green 100%);
 }
 
 .prodId_input{
@@ -453,10 +456,11 @@
 }
 
 .stockIn_list{
-    border-style: solid;
-    border: 1px thin #808080;
-    border-radius: 15px;
     position: absolute;
+    border-style: solid;
+    border-spacing: 0;
+    border: 1px thin #808080;
+    border-radius: 5px;
     width:430px;
     top: 250px;
     left: 400px;
@@ -464,28 +468,99 @@
 }
 
 .stockIn_table{
-    border-collapse: collapse;
-    overflow:hidden;
-}
-
-.listCat{
-    position: static;
     background: repeating-linear-gradient(90deg, white 0%, green 100%);
-    overflow: hidden;
-    
+    border-collapse: collapse;
 }
 
 .list_tr{
     text-align: center;
-    border-color: black;
+    background: white;
 }
 
 .catalog_info{
-    border-top:solid;
+    border-top: solid;
     border-left: solid;
 }
 
 .list_tr:hover{
     background-color: rgb(153, 255, 0);
+    cursor: default;
+}
+
+/*------------------------Orders.html-------------*/
+
+.orderList{
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: 526px;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    left: 50px;
+    top: 50px;
+}
+
+.orderCategory{
+    position: static;
+    text-align: center;
+    width: 70px;
+}
+
+.orderTable{
+    border-collapse: collapse;
+}
+
+.orderList_tr{
+    text-align: center;
+    background-color: white;
+}
+
+.orderInfo{
+    border-top: 2px solid #5b82f897;
+    border-right: 2px solid #5b82f897;
+    border-color: rgb(157, 170, 255);
+}
+
+.orderList_tr:hover{
+    background-color: lightgreen;
+    cursor: default;
+}
+
+
+/*---------------------Customers.html---------------*/
+
+.Customer_div{
+    position: absolute;
+    border: solid;
+    width: 340px;
+    border-radius: 12px;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    left: 50px;
+    top: 50px;
+}
+
+.Customer_table{
+    border-collapse: collapse;
+}
+
+.Customer_category{
+    text-align: center;
+    width: 80px;
+}
+
+.Customer_info{
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-color: #5f87fec8;
+    text-align: center;
+    font-size: 12px;
+    width: 85px;
+}
+
+.Customer_tr{
+    background-color: white;
+}
+
+.Customer_tr:hover{
+    background-color: lightgreen;
     cursor: default;
 }
