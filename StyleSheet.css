@@ -41,7 +41,8 @@
     transition: .20s;
 }
 
-.ProdIn:focus~.prodLabel, .ProdIn:valid~.prodLabel{
+.ProdIn:focus~.prodLabel, 
+.ProdIn:valid~.prodLabel{
     left: 200px;
 }
 
@@ -58,7 +59,9 @@
 }
 
 .Categories th:hover {
-    background-color: lightgreen;
+    background-color: white;
+    border-style: solid;
+    border-color: #808080;
 }
 
 .bottomPic {
@@ -168,7 +171,9 @@
 
 .loginButton:hover{
     background: rgb(31, 45, 52);
+    border-color: rgb(31, 45, 52);
     color: aliceblue;
+    cursor: pointer;
 }
 
 .SignUpButton{
@@ -184,7 +189,9 @@
 
 .SignUpButton:hover{
     background: rgb(31, 45, 52);
+    border-color: rgb(31, 45, 52);
     color: aliceblue;
+    cursor: pointer;
 }
 
 /*-----------signUpPage------------*/
@@ -306,4 +313,179 @@
     text-align: center;
     font-size: 15px;
     display: block;
+}
+
+.submitAcc:hover{
+    background: rgb(31, 45, 52);
+    border-color: rgb(31, 45, 52);
+    color: white;
+    cursor: pointer;
+}
+
+.cancelAcc:hover{
+    background: rgb(31, 45, 52);
+    border-color: rgb(31, 45, 52);
+    color: white;
+    cursor: pointer;
+}
+
+/*-----------------stockIn.html------------------*/
+
+
+.stockIn_div{
+    position: absolute;
+    border-style: solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    top: 200px;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+}
+
+.prodId_input{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 30px;
+    left: 10px;
+}
+
+.prodID_label{
+    position: relative;
+    left: 15px;
+    top: 2px;
+    font-size: 10px;
+    transition: .15s;
+}
+
+.prodId_input:focus~.prodID_label, 
+.prodId_input:active~.prodID_label{
+    font-size: 15px;
+    color: green;
+    top: -25px;
+}
+
+.prodCategory_input{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 50px;
+    left: 10px;
+}
+
+.prodCategory_label{
+    position: relative;
+    left: 15px;
+    top: 21px;
+    font-size: 10px;
+    transition: .15s;
+}
+
+.prodCategory_input:focus~.prodCategory_label, 
+.prodCategory_input:active~.prodCategory_label{
+    font-size: 15px;
+    color: green;
+    top: -5px;
+}
+
+.prodName_input{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 70px;
+    left: 10px;
+}
+
+.prodName_label{
+    position: relative;
+    left: 15px;
+    top: 41px;
+    font-size: 10px;
+    transition: .15s;
+}
+
+.prodName_input:focus~.prodName_label,
+.prodName_input:active~.prodName_label{
+    font-size: 15px;
+    color: green;
+    top: 15px;
+}
+
+.prodQty_input{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 90px;
+    left: 10px;
+}
+
+.prodQty_label{
+    position: relative;
+    left: 15px;
+    top: 61px;
+    font-size: 10px;
+    transition: .15s;
+}
+
+.prodQty_input:focus~.prodQty_label,
+.prodQty_input:active~.prodQty_label{
+    font-size: 15px;
+    color: green;
+    top: 35px;
+}
+
+.uploadIMG{
+    position:relative;
+    border:1px solid;
+    background: rgb(208, 206, 206);
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+    left: 10px;
+    top: 100px;
+}
+
+.uploadIMG_label{
+    position: relative;
+    font-size: 12px;
+    left: 100px;
+    top: 80px;
+}
+
+.stockIn_list{
+    border-style: solid;
+    border: 1px thin #808080;
+    border-radius: 15px;
+    position: absolute;
+    width:430px;
+    top: 250px;
+    left: 400px;
+    
+}
+
+.stockIn_table{
+    border-collapse: collapse;
+    overflow:hidden;
+}
+
+.listCat{
+    position: static;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    overflow: hidden;
+    
+}
+
+.list_tr{
+    text-align: center;
+    border-color: black;
+}
+
+.catalog_info{
+    border-top:solid;
+    border-left: solid;
+}
+
+.list_tr:hover{
+    background-color: rgb(153, 255, 0);
+    cursor: default;
 }

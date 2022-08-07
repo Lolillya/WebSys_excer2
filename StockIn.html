@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <div class="stockIn_div">
+        <td>
+            <tr>
+                <h4  style="left: 15px; position: relative;">Stock In</h4>
+
+                <input class="prodId_input" type="text" id="productID" required>
+                <label class="prodID_label" for="productID"><br/>Product ID</label>
+
+                <input class="prodCategory_input" type="text" id="prodCat"required>
+                <label class="prodCategory_label" for="prodCat"><br/>Product Category</label>
+                    
+                <input class="prodName_input" type="text" id="prodName"required>
+                <label class="prodName_label" for="prodName"><br/>Product Name</label>
+
+                <input class="prodQty_input" type="number" id="prodQty"required>
+                <label class="prodQty_label" for="prodQty"><br/>Quantity</label>
+
+                <div class="uploadIMG">Choose File</div>
+                <label class="uploadIMG_label">No File Chosen</label>
+            </tr>
+        </td>
+    </div>
+
+    <div class="stockIn_list">
+        <table class="stockIn_table">
+            <tr class="listCat" style="border: 0;">
+                <th style="width: 90px;"><h6>Product ID</h6></th>
+                <th style="width: 90px;"><h6>Product Category</h6></th>
+                <th style="width: 90px;"><h6>Product Name</h6></th>
+                <th style="width: 90px;"><h6>Product Price</h6> </th>
+                <th style="width: 90px;"><h6>Quantity</h6></th>
+            </tr>
+            <tr class="list_tr">
+                <td class="catalog_info">1</td>
+                <td class="catalog_info">Motherboard</td>
+                <td class="catalog_info">Asus</td>
+                <td class="catalog_info">1,000</td>
+                <td class="catalog_info">50</td>
+            </tr>
+            <tr class="list_tr">
+                <td class="catalog_info">2</td>
+                <td class="catalog_info">Memory</td>
+                <td class="catalog_info">HyperX</td>
+                <td class="catalog_info">2,000</td>
+                <td class="catalog_info">10</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</body>
+</html>
