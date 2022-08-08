@@ -1,49 +1,72 @@
 ﻿body {
 }
 
-.fixed {
+ .fixed {
     position:fixed;
-    top:10px;
-    left:0;
-    width:100%;
     border-style: solid;
-    border-top: .50px thin #808080;
+    border-radius: 20px;
+    top:10px;
+    left:15px;
+    width:97%;
+    height: 210px;
     background: repeating-linear-gradient(90deg, white 0%, green 100%);
-}
+    transition: all;
+} 
 
 .topLink {
+    position: relative;
     border:0;
     width:100%;
+    left: 10px;
 }
 
 .link {
     color:blue;
     text-decoration:none;
+    font-size: 18px;
     padding-right:5px;
 }
 
-.ProdIn {
-    position:relative;
-    width:720px;
-    height: 35px;
-    left:60px;
-    top: 0px;
+.companyLogo{
+    position: relative;
 }
 
-.tableInput {
-    width:70%;
+.srchPrd_input{
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    width: 800px;
+    height: 30px;
 }
 
-.prodLabel {
-    position:absolute;
-    top:99px;
-    left: 327px;
-    transition: .20s;
+.srchPrd_label{
+    position: absolute;
+    left: 360px;
+    top: 105px;
+    color: #808080;
+    padding-top: 4px;
+    transition: .15s;
 }
 
-.ProdIn:focus~.prodLabel, 
-.ProdIn:valid~.prodLabel{
-    left: 200px;
+.cart_img{
+    position: absolute;
+    left: 1300px;
+    top: 80px;
+}
+
+.cart_img:hover{
+    background-color: #80808049;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.srchPrd_input:focus~.srchPrd_label,
+.srchPrd_input:active~.srchPrd_label{
+    color: rgb(0, 0, 0);
+    left: 220px;
+    font-size: 20px;
+    top: 100px;
 }
 
 
@@ -59,12 +82,15 @@
     width: 90%;
     align-items: center;
     margin: 0 auto;
+    top: 250px;
 }
 
 .Categories th:hover {
     background-color: white;
-    border-style: solid;
+    border: 1px solid;
+    border-radius: 5px;
     border-color: #808080;
+    cursor: pointer;
 }
 
 .bottomPic {
@@ -72,16 +98,24 @@
 }
 
 .brands {
+    position: relative;
     border-style:solid;
     border-radius: 15px;
     border-collapse:separate;
     border-spacing: 15px 50px;
     bottom:50px;
     padding-bottom:25px;
+    top: 150px;
+    width: 99%;
+    height: 200px;
+    margin: 0 auto;
 }
 
     .brands th:hover {
         background-color: lightgreen;
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 5px;
     }
 
 .bottomBrands {
@@ -100,7 +134,7 @@
     width:300px;
     height:400px;
     right:0;
-    top: 250px;
+    top: 300px;
     background: repeating-linear-gradient(90deg, white 0%, green 100% );
 }
 
@@ -210,7 +244,7 @@
     right: 0;
     width:300px;
     height:400px;
-    top: 250px;
+    top: 280px;
     background: repeating-linear-gradient(90deg, white 0%, green 100% );
 }
 
@@ -236,13 +270,14 @@
     width: 250px;
     height: 30px;
     top: 100px;
+    left: 10px;
 }
 
 .numLabel{
     position: absolute;
     font-size: 12px;
     top: 111px;
-    left: 10px;
+    left: 20px;
     transition: .20s;
     color: #a7969697;
 }
@@ -252,13 +287,14 @@
     width: 250px;
     height: 30px;
     top: 160px;
+    left: 10px;
 }
 
 .emailLabel{
     position: absolute;
     font-size: 12px;
     top: 208px;
-    left: 10px;
+    left: 20px;
     transition: .20s;
     color: #a7969697;
 }
@@ -268,13 +304,14 @@
     width: 250px;
     height: 30px;
     top: 230px;
+    left: 10px;
 }
 
 .passLabel{
     position: absolute;
     font-size: 12px;
     top: 314px;
-    left: 10px;
+    left: 20px;
     transition: .20s;
     color: #a7969697;
 }
@@ -350,7 +387,7 @@
     border-radius: 20px;
     width: 300px;
     height: 500px;
-    top: 200px;
+    top: 300px;
 }
 
 .prodId_input{
@@ -496,7 +533,7 @@
     border: 1px thin #808080;
     border-radius: 5px;
     width:430px;
-    top: 250px;
+    top: 380px;
     left: 400px;
     
 }
@@ -511,15 +548,16 @@
     background: white;
 }
 
+.list_tr:hover{
+    background-color: rgb(153, 255, 0);
+    cursor: default;
+}
+
 .catalog_info{
     border-top: solid;
     border-left: solid;
 }
 
-.list_tr:hover{
-    background-color: rgb(153, 255, 0);
-    cursor: default;
-}
 
 /*------------------------Orders.html-------------*/
 
@@ -529,8 +567,8 @@
     border-radius: 10px;
     width: 526px;
     background: repeating-linear-gradient(90deg, white 0%, green 100%);
-    left: 50px;
-    top: 50px;
+    left: 150px;
+    top: 360px;
 }
 
 .orderCategory{
@@ -568,8 +606,8 @@
     width: 340px;
     border-radius: 12px;
     background: repeating-linear-gradient(90deg, white 0%, green 100%);
-    left: 50px;
-    top: 50px;
+    left: 150px;
+    top: 350px;
 }
 
 .Customer_table{
@@ -597,4 +635,129 @@
 .Customer_tr:hover{
     background-color: lightgreen;
     cursor: default;
+}
+
+/*---------------------motherboard.html-----------*/
+
+.MB_cat_div{
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    top:350px;
+}
+
+.MB_cat_table{
+    border-collapse: collapse;
+}
+
+.mbPic_tr td:hover{
+    border: 2px solid #808080;
+    cursor: pointer;
+}
+
+.mbPic{
+    width: 150px;
+    height: 160px;
+}
+
+/*-------------Processors.html-------------*/
+
+.cpu_div{
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    top:350px;
+}
+
+.cpu_table{
+    border-collapse: collapse;
+}
+
+.cpuPic{
+    width: 150px;
+    height: 160px;
+}
+
+.cpuPic_tr td:hover{
+    border: 2px solid #808080;
+    cursor: pointer;
+}
+
+/*----------------memBank.html-------*/
+
+.memBank_div{
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    top:350px;
+}
+
+.memPic{
+    width: 150px;
+    height: 160px;
+}
+
+.memPic_tr{
+    text-align: center;
+}
+
+.memPic_tr td:hover{
+    border: 2px solid #808080;
+    cursor: pointer;
+}
+
+/*-------------pc_Case.html-------*/
+
+.pc_Case_div{
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    top:350px;
+}
+
+.pcPic_tr{
+    text-align: center; 
+}
+
+.pcPic{
+    width: 150px;
+    height: 160px;
+}
+
+.pcPic_tr td:hover{
+    border: 2px solid #808080;
+    cursor: pointer;
+}
+
+/*----------------storage.html----------------*/
+
+.storage_div{
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    top:350px;
+}
+
+.storagePic{
+    width: 150px;
+    height: 160px;
+}
+
+.storagePic_tr{
+    text-align: center;
+}
+
+.storagePic_tr td:hover{
+    border: 2px solid #808080;
+    cursor: pointer;
 }
