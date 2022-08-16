@@ -3,12 +3,13 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="javascript.js"></script>
 </head>
 <body>
     <div class="signUpPage">
         <table class="signUpTable">
             <h4 style="position:absolute; left: 15px; top: 35px; margin: 0;">Sign up</h4>
-            
+            <form name="signup">
                 <tr class="phNum_tr">
                     <input class="numSign" type="text" id="phNum" required>
                     <label class="numLabel" for="phNum">Phone Number</label>
@@ -23,9 +24,10 @@
                     <label class="passLabel" for="phNum">Password</label>
                 </tr>
                 <tr>
-                    <div class="submitAcc" onclick="location.href='';">Submit</div>
+                    <div class="submitAcc" onclick="signupAttempt()">Submit</div>
                     <div class="cancelAcc" onclick="location.href='loginPage.html';">Cancel</div>
                 </tr>
+            </form>
         </table>
     </div>
 </body>

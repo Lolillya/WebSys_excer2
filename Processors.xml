@@ -1,0 +1,22 @@
+<stocks>
+    <products>
+        <picture>cpu1.jpg</picture>
+        <price>10,000</price>
+    </products>
+    <products>
+        <picture>cpu2.jpg</picture>
+        <price>10,000</price>
+    </products>
+    <products>
+        <picture>cpu3.jpg</picture>
+        <price>10,000</price>
+    </products>
+    <products>
+        <picture>cpu4.jpg</picture>
+        <price>10,000</price>
+    </products>
+    <products>
+        <picture>cpu5.jpg</picture>
+        <price>10,000</price>
+    </products>
+</stocks>

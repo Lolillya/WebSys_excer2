@@ -1,6 +1,4 @@
-﻿body {
-}
-
+﻿
  .fixed {
     position:fixed;
     border-style: solid;
@@ -522,30 +520,40 @@
 
 .submitSock:hover{
     background-color: lightgreen;
-    border-color: black;
     cursor: pointer;
 }
 
 .stockIn_list{
     position: absolute;
-    border-style: solid;
-    border-spacing: 0;
-    border: 1px thin #808080;
-    border-radius: 5px;
+    border: 2px solid #5b82f897;
+    border-radius: 10px;
     width:430px;
+    height: auto;
     top: 380px;
     left: 400px;
+    border-collapse: collapse;
     
 }
 
 .stockIn_table{
     background: repeating-linear-gradient(90deg, white 0%, green 100%);
+
+    position: relative;
+    width: 100%;
+    height: auto;
     border-collapse: collapse;
+}
+
+.stockIn_table1{
+    position: static;
+    border-collapse: collapse;
+    
 }
 
 .list_tr{
     text-align: center;
     background: white;
+    
 }
 
 .list_tr:hover{
@@ -554,31 +562,43 @@
 }
 
 .catalog_info{
-    border-top: solid;
-    border-left: solid;
+    position: relative;
+    border-top: 2px solid #5b82f897;
+    border-right: 2px solid #5b82f897;
+    border-color: rgb(157, 170, 255);
+    
 }
 
 
 /*------------------------Orders.html-------------*/
 
 .orderList{
-    position: absolute;
-    border: solid;
-    border-radius: 10px;
-    width: 526px;
+    position: relative;
+    border: 2px solid #5b82f897;
+    border-radius: 10px; 
+    width: 600px;
+    height: auto;
     background: repeating-linear-gradient(90deg, white 0%, green 100%);
     left: 150px;
     top: 360px;
 }
 
-.orderCategory{
-    position: static;
-    text-align: center;
-    width: 70px;
+.orderTable{
+    position: relative;
+    
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
 }
 
-.orderTable{
+.orderTable1{
+    position: static;
     border-collapse: collapse;
+}
+
+.orderCategory{
+    position:static;
+    text-align: center;
 }
 
 .orderList_tr{
@@ -587,6 +607,7 @@
 }
 
 .orderInfo{
+    position: relative;
     border-top: 2px solid #5b82f897;
     border-right: 2px solid #5b82f897;
     border-color: rgb(157, 170, 255);
@@ -601,16 +622,25 @@
 /*---------------------Customers.html---------------*/
 
 .Customer_div{
-    position: absolute;
-    border: solid;
-    width: 340px;
-    border-radius: 12px;
+    position: relative;
+    border: 2px solid #5b82f897;
+    border-radius: 10px; 
+    width: 500px;
+    height: auto;
     background: repeating-linear-gradient(90deg, white 0%, green 100%);
     left: 150px;
-    top: 350px;
+    top: 360px;
 }
 
 .Customer_table{
+    position: relative;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+}
+
+.Customer_table1{
+    position: static;
     border-collapse: collapse;
 }
 
@@ -624,7 +654,7 @@
     border-right: 1px solid;
     border-color: #5f87fec8;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     width: 85px;
 }
 
@@ -641,15 +671,21 @@
 
 .MB_cat_div{
     position: absolute;
-    border: solid;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
+    /* border: solid; */
+    /* border-radius: 10px; */
+    width: 95%;
+    height: 300px;
     top:350px;
 }
 
 .MB_cat_table{
-    border-collapse: collapse;
+    position: absolute;
+    border:solid ;
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+    width: auto;
+    height: auto;
+    left: 30px;
 }
 
 .mbPic_tr td:hover{
@@ -657,24 +693,25 @@
     cursor: pointer;
 }
 
-.mbPic{
-    width: 150px;
-    height: 160px;
-}
-
 /*-------------Processors.html-------------*/
 
 .cpu_div{
     position: absolute;
-    border: solid;
-    border-radius: 10px;
+    /* border: solid; */
+    /* border-radius: 10px; */
     width: auto;
     height: auto;
     top:350px;
 }
 
 .cpu_table{
-    border-collapse: collapse;
+    position: absolute;
+    border:solid ;
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+    width: auto;
+    height: auto;
+    left: 30px;
 }
 
 .cpuPic{
@@ -691,20 +728,18 @@
 
 .memBank_div{
     position: absolute;
-    border: solid;
-    border-radius: 10px;
     width: auto;
     height: auto;
     top:350px;
 }
 
-.memPic{
-    width: 150px;
-    height: 160px;
-}
-
-.memPic_tr{
-    text-align: center;
+.memBank_table{
+    position: absolute;
+    border:solid ;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    left: 30px;
 }
 
 .memPic_tr td:hover{
@@ -716,11 +751,18 @@
 
 .pc_Case_div{
     position: absolute;
-    border: solid;
-    border-radius: 10px;
     width: auto;
     height: auto;
     top:350px;
+}
+
+.pc_Case_table{
+    position: absolute;
+    border:solid ;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    left: 30px;
 }
 
 .pcPic_tr{
@@ -741,11 +783,18 @@
 
 .storage_div{
     position: absolute;
-    border: solid;
-    border-radius: 10px;
     width: auto;
     height: auto;
     top:350px;
+}
+
+.storage_table{
+    position: absolute;
+    border:solid ;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    left: 30px;
 }
 
 .storagePic{

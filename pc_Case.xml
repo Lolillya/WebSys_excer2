@@ -1,0 +1,22 @@
+<stocks>
+    <products>
+        <picture>pc_case1.jpg</picture>
+        <price>P 7,220.68</price>
+    </products>
+    <products>
+        <picture>pc_case2.png</picture>
+        <price>P 7,220.68</price>
+    </products>
+    <products>
+        <picture>pc_case3.jpg</picture>
+        <price>P 7,220.68</price>
+    </products>
+    <products>
+        <picture>pc_case4.jpg</picture>
+        <price>P 7,220.68</price>
+    </products>
+    <products>
+        <picture>pc_case5.jpg</picture>
+        <price>P 7,220.68</price>
+    </products>
+</stocks>

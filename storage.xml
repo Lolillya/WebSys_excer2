@@ -1,0 +1,22 @@
+<stocks>
+    <products>
+        <picture>hd1.jpg</picture>
+        <price>P 1,299.00</price>
+    </products>
+    <products>
+        <picture>hd2.jpg</picture>
+        <price>P 1,299.00</price>
+    </products>
+    <products>
+        <picture>hd3.jpg</picture>
+        <price>P 1,299.00</price>
+    </products>
+    <products>
+        <picture>hd4.jpg</picture>
+        <price>P 1,299.00</price>
+    </products>
+    <products>
+        <picture>hd5.jpg</picture>
+        <price>P 1,299.00</price>
+    </products>
+</stocks>

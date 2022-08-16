@@ -1,0 +1,26 @@
+<orders>
+    <customers>
+        <cid>1</cid>
+        <email>abc@gmail.com</email>
+        <number>123456</number>
+        <date>01/01/2022</date>
+    </customers>
+    <customers>
+        <cid>2</cid>
+        <email>def@gmail.com</email>
+        <number>78998765</number>
+        <date>01/01/2022</date>
+    </customers>
+    <customers>
+        <cid>2</cid>
+        <email>def@gmail.com</email>
+        <number>78998765</number>
+        <date>01/01/2022</date>
+    </customers>
+    <customers>
+        <cid>2</cid>
+        <email>def@gmail.com</email>
+        <number>78998765</number>
+        <date>01/01/2022</date>
+    </customers>
+</orders>

@@ -1,0 +1,30 @@
+<Stocks>
+    <Products>
+        <pid>1</pid>
+        <pcat>Motherboard</pcat>
+        <pname>Asus</pname>
+        <price>P 1,000.00</price>
+        <quantity>15</quantity>
+    </Products>
+    <Products>
+        <pid>2</pid>
+        <pcat>Memory</pcat>
+        <pname>HyperX</pname>
+        <price>P 2,600.00</price>
+        <quantity>15</quantity>
+    </Products>
+    <Products>
+        <pid>2</pid>
+        <pcat>Memory</pcat>
+        <pname>HyperX</pname>
+        <price>P 2,600.00</price>
+        <quantity>15</quantity>
+    </Products>
+    <Products>
+        <pid>2</pid>
+        <pcat>Memory</pcat>
+        <pname>HyperX</pname>
+        <price>P 2,600.00</price>
+        <quantity>15</quantity>
+    </Products>
+</Stocks>

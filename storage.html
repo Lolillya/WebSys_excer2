@@ -3,18 +3,13 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="StyleSheet.css"/>
+    <script src="javascript.js"></script>
 </head>
-<body>
+<body onload="loadStorageXML()">
     <div class="storage_div">
-        <table style="border-collapse: collapse;">
-            <tr class="storagePic_tr">
-                <h4>Storage</h4>
-                <td class="storagePic"><img src="hd1.jpg" width="150px" height="160px"><br>P 1,299.00</td>
-                <td class="storagePic"><img src="hd2.jpg" width="150px" height="160px"><br>P 1,599.00</td>
-                <td class="storagePic"><img src="hd3.jpg" width="150px" height="160px"><br>P 999.00</td>
-                <td class="storagePic"><img src="hd4.jpg" width="150px" height="160px"><br>P 3,599.00</td>
-                <td class="storagePic"><img src="hd5.jpg" width="150px" height="160px"><br>P 3,299.00</td>
-            </tr>
+        <table class="storage_table" id="storageID">
+            <tr><h4>Storage</h4></tr>
+
         </table>
     </div>
 </body>

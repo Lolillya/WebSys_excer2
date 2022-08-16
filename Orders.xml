@@ -1,0 +1,29 @@
+<Orders>
+    <Customer>
+        <cid>1</cid>
+        <pid>5</pid>
+        <pcat>Motherboard</pcat>
+        <pname>Asus</pname>
+        <price>1,000.00</price>
+        <quantity>1</quantity>
+        <date>01/02/2022</date>
+    </Customer>
+    <Customer>
+        <cid>2</cid>
+        <pid>301</pid>
+        <pcat>Memory</pcat>
+        <pname>HyperX</pname>
+        <price>2,600.00</price>
+        <quantity>4</quantity>
+        <date>01/02/2022</date>
+    </Customer>
+    <Customer>
+        <cid>2</cid>
+        <pid>301</pid>
+        <pcat>Memory</pcat>
+        <pname>HyperX</pname>
+        <price>2,600.00</price>
+        <quantity>4</quantity>
+        <date>01/02/2022</date>
+    </Customer>
+</Orders>

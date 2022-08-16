@@ -3,11 +3,13 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="javascript.js"></script>
 </head>
 <body>
     <div class="loginDiv">
         <table class="loginTable">
             <h4 style="position:absolute; left: 15px; top: 25px; margin: 0;">Sign in</h3>
+        <form name="login">
             <tr>
                 <td class="tdUsername">
                     <input class="userName" type="text" id="username" required/>
@@ -16,10 +18,10 @@
             </tr>
             <tr>
                 <td class="tdPassword">
-                    <input class="passWord" type="text" id="password" required />
+                    <input class="passWord" type="text" id="password" required/>
                     <label class="passLog" for="password">Password</label>
 
-                    <div class="loginButton">
+                    <div class="loginButton" onclick="loginAttempt()">
                         Login
                     </div>
                     <div class="SignUpButton" onclick="location.href='signup.html';">
@@ -27,6 +29,7 @@
                     </div>
                 </td>
             </tr>
+        </form>
         </table>
     </div>
         

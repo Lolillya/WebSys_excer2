@@ -1,0 +1,22 @@
+<stocks>
+    <products>
+        <picture>membank1.jpg</picture>
+        <price>P 2,600</price>
+    </products>
+    <products>
+        <picture>membank2.jpg</picture>
+        <price>P 2,600</price>
+    </products>
+    <products>
+        <picture>membank3.jpg</picture>
+        <price>P 2,600</price>
+    </products>
+    <products>
+        <picture>membank4.jpg</picture>
+        <price>P 2,600</price>
+    </products>
+    <products>
+        <picture>membank5.jpg</picture>
+        <price>P 2,600</price>
+    </products>
+</stocks>

@@ -3,8 +3,9 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="javascript.js"></script>
 </head>
-<body>
+<body onload="readStockIn()">
     <div class="stockIn_div">
         <td>
             <tr>
@@ -31,27 +32,16 @@
 
     <div class="stockIn_list">
         <table class="stockIn_table">
-            <tr class="listCat" style="border: 0;">
+            <tr class="listCat">
                 <th style="width: 90px;"><h6>Product ID</h6></th>
                 <th style="width: 90px;"><h6>Product Category</h6></th>
                 <th style="width: 90px;"><h6>Product Name</h6></th>
                 <th style="width: 90px;"><h6>Product Price</h6> </th>
                 <th style="width: 90px;"><h6>Quantity</h6></th>
             </tr>
-            <tr class="list_tr">
-                <td class="catalog_info">1</td>
-                <td class="catalog_info">Motherboard</td>
-                <td class="catalog_info">Asus</td>
-                <td class="catalog_info">1,000</td>
-                <td class="catalog_info">50</td>
-            </tr>
-            <tr class="list_tr">
-                <td class="catalog_info">2</td>
-                <td class="catalog_info">Memory</td>
-                <td class="catalog_info">HyperX</td>
-                <td class="catalog_info">2,000</td>
-                <td class="catalog_info">10</td>
-            </tr>
+        </table>
+        <table class="stockIn_table1" id="StockIn_ID">
+
         </table>
     </div>
 
